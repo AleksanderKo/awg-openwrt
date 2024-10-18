@@ -14,9 +14,9 @@ jobs:
         build_env:
           - tag: "snapshot"
             pkgarch: arm64
-            target: ipq807x
-            subtarget: generic
-            vermagic: "5c9be91b90bda5403fe3a7c4e8ddb26f"
+            target: qualcommax
+            subtarget: ipq807x
+            vermagic: "72e1adb51b711b945bea70cf9406c2c5-r1"
 
     steps:
       - uses: actions/checkout@v4
