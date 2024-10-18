@@ -13,7 +13,7 @@ jobs:
       matrix:
         build_env:
           - tag: "snapshot"
-            pkgarch: arm64
+            pkgarch:  aarch64_cortex-a53
             target: qualcommax
             subtarget: ipq807x
             vermagic: "72e1adb51b711b945bea70cf9406c2c5-r1"
