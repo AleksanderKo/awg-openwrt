@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "1.0.0"
+          - tag: "23.05.5"
             pkgarch:  aarch64_cortex-a53
             target: qualcommax
             subtarget: ipq807x
