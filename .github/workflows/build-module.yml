@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "snapshot"
+          - tag: "master"
             pkgarch:  aarch64_cortex-a53
             target: qualcommax
             subtarget: ipq807x
