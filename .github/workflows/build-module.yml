@@ -13,8 +13,8 @@ jobs:
         build_env:
           - tag: "23.05.5"
             pkgarch:  aarch64_cortex-a53
-            target: qualcommax
-            subtarget: ipq807x
+            target: ipq807x
+            subtarget: generic
             vermagic: "72e1adb51b711b945bea70cf9406c2c5-r1"
 
     steps:
